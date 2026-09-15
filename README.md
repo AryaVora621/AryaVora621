@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=190&section=header&text=Arya%20Vora&fontSize=44&fontAlignY=36&desc=Mechatronics%20Builder%20%7C%20Robotics%20%7C%20Embedded%20%7C%20Autonomous%20AI&descAlignY=60&descAlign=50" width="100%" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Mechatronics+%26+Robotics+Engineer;Captain+%40+FTC+Team+23786+MakEMinds;Custom+PCB+Design+(KiCad)+%2B+Embedded+C%2B%2B%2FRust;ESP32+Flight+Controllers+%2B+6-Axis+Robotic+Arms;Autonomous+AI+Agents+%2B+Computer+Vision" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=640&lines=Mechatronics+%26+Robotics+Engineer;Captain+%40+FTC+Team+23786+MakEMinds;Custom+PCB+Design+(KiCad)+%2B+Embedded+C%2B%2B%2FRust;ESP32+Flight+Controllers+%2B+6-Axis+Robotic+Arms;Autonomous+AI+Agents+%2B+Computer+Vision" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -12,6 +12,7 @@
 [![Email](https://img.shields.io/badge/Email-aryavora621%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryavora621@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AryaVora621-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AryaVora621)
 [![Location](https://img.shields.io/badge/Location-Edison%2C%20NJ-0A66C2?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Edison,NJ)
+[![Views](https://komarev.com/ghpvc/?username=AryaVora621&style=for-the-badge&color=38BDF8&label=VIEWS)](https://github.com/AryaVora621)
 
 <br/>
 
@@ -26,16 +27,20 @@
 
 I design and build physical systems from first principles — mechanical CAD, custom PCB layout, embedded control firmware, and modern agentic software.
 
-```
-┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
-│ Mechanical CAD  │  ──>  │   Custom PCB    │  ──>  │ Embedded Control│  ──>  │ Intelligence/UI │
-│ Onshape/Fusion  │       │  KiCad 8 / DRC  │       │ C++ / Rust / RTOS│      │ OpenCV/Next.js  │
-└─────────────────┘       └─────────────────┘       └─────────────────┘       └─────────────────┘
-```
+- 🤖 **Founder & Captain, FIRST Tech Challenge Team 23786 "MakEMinds"**: Led team across mechanical design, CNC/3D fabrication, and autonomous control. Won **1st place at NJ State Championship (5-0)** and **1st place at NJ University Cup**; qualified for and competed at the **FIRST World Championship in Houston** (finishing 39th in the Ross Division). Mentored 50+ students across FLL and FTC.
+- 🦅 **Director of External Relations, FIRST Robotics Competition Team 2554 "Warhawks"**: Lead corporate outreach, sponsorship acquisitions, and team brand strategy.
+- 🛠️ **Full-Stack Physical Engineering**: From scratch-built Cartesian 3D printers and custom 6-axis robotic arm carrier PCBs to autonomous quadcopter flight controllers and room projection systems.
 
-- 🤖 **Founder & Captain, FIRST Tech Challenge Team 23786 "MakEMinds"**: Led team across mechanical design, fabrication, and autonomous code. Won **1st place at NJ State Championship (5-0)** and **1st place at NJ University Cup**; qualified for and competed at the **FIRST World Championship in Houston** (39th in the Ross Division). Mentored 50+ students across FLL and FTC programs.
-- 🦅 **Director of External Relations, FIRST Robotics Competition Team 2554 "Warhawks"**: Lead corporate outreach, sponsorship acquisitions, and public team presence.
-- 🛠️ **Full-Stack Physical Engineering**: From scratch-built Cartesian 3D printers and custom 6-axis robotic arm carrier PCBs to autonomous quadcopter flight controllers and projector homography systems.
+---
+
+### 🔬 Active Hardware & Systems Pipeline
+
+```mermaid
+graph LR
+    CAD["📐 Mechanical CAD<br/><i>Onshape / Fusion 360</i>"] --> PCB["⚡ Custom PCB Design<br/><i>KiCad 8 • DRC Clean</i>"]
+    PCB --> EMB["🔌 Embedded Firmware<br/><i>C++ • Rust • FreeRTOS</i>"]
+    EMB --> SYS["🧠 Vision & Autonomy<br/><i>OpenCV • Next.js • Python</i>"]
+```
 
 ---
 

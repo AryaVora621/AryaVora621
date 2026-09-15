@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=190&section=header&text=Arya%20Vora&fontSize=44&fontAlignY=36&desc=Mechatronics%20Builder%20%7C%20Robotics%20%7C%20Embedded%20%7C%20Autonomous%20AI&descAlignY=60&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:7e22ce,100:a855f7&height=190&section=header&text=Arya%20Vora&fontSize=44&fontAlignY=36&desc=Mechatronics%20Builder%20%7C%20Robotics%20%7C%20Embedded%20%7C%20Autonomous%20AI&descAlignY=60&descAlign=50&fontColor=ffffff" width="100%" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=640&lines=Mechatronics+%26+Robotics+Engineer;Captain+%40+FTC+Team+23786+MakEMinds;Custom+PCB+Design+(KiCad)+%2B+Embedded+C%2B%2B%2FRust;ESP32+Flight+Controllers+%2B+6-Axis+Robotic+Arms;Autonomous+AI+Agents+%2B+Computer+Vision" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=C084FC&center=true&vCenter=true&width=640&lines=Mechatronics+%26+Robotics+Engineer;Founder+%26+Captain+%40+FTC+Team+23786+MakEMinds;Custom+PCB+Design+(KiCad)+%2B+Embedded+C%2B%2B%2FRust;Autonomous+Quadrupeds+%2B+ESP32+Flight+Controllers;500%2B+Mentoring+Hours+%7C+2700%2B+Students+Reached" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -12,13 +12,13 @@
 [![Email](https://img.shields.io/badge/Email-aryavora621%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryavora621@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AryaVora621-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AryaVora621)
 [![Location](https://img.shields.io/badge/Location-Edison%2C%20NJ-0A66C2?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Edison,NJ)
-[![Views](https://komarev.com/ghpvc/?username=AryaVora621&style=for-the-badge&color=38BDF8&label=VIEWS)](https://github.com/AryaVora621)
+[![Views](https://komarev.com/ghpvc/?username=AryaVora621&style=for-the-badge&color=A855F7&label=VIEWS)](https://github.com/AryaVora621)
 
 <br/>
 
-| 🏆 Houston Worlds | 🥇 NJ State Championship | ⚡ Custom Electronics | 🖨️ Additive Solo Build |
-| :---: | :---: | :---: | :---: |
-| **39th Division Rank** | **1st Place (5-0 Record)** | **79-Part Carrier PCB** | **12 Design Iterations** |
+| 🏆 Houston Worlds | 🥇 NJ Championship | 🤝 STEM Leadership | ⚡ Custom Electronics | 🖨️ Additive Builds |
+| :---: | :---: | :---: | :---: | :---: |
+| **39th Division Rank** | **Finalist Captain • 5-0** | **500+ Mentoring Hrs • 2.7k+ Reached** | **79-Part Carrier PCB** | **12 CAD Revisions** |
 
 ---
 </div>
@@ -27,9 +27,10 @@
 
 I design and build physical systems from first principles — mechanical CAD, custom PCB layout, embedded control firmware, and modern agentic software.
 
-- 🤖 **Founder & Captain, FIRST Tech Challenge Team 23786 "MakEMinds"**: Led team across mechanical design, CNC/3D fabrication, and autonomous control. Won **1st place at NJ State Championship (5-0)** and **1st place at NJ University Cup**; qualified for and competed at the **FIRST World Championship in Houston** (finishing 39th in the Ross Division). Mentored 50+ students across FLL and FTC.
-- 🦅 **Director of External Relations, FIRST Robotics Competition Team 2554 "Warhawks"**: Lead corporate outreach, sponsorship acquisitions, and team brand strategy.
-- 🛠️ **Full-Stack Physical Engineering**: From scratch-built Cartesian 3D printers and custom 6-axis robotic arm carrier PCBs to autonomous quadcopter flight controllers and room projection systems.
+- 🤖 **Founder & Captain, FIRST Tech Challenge Team 23786 "MakEMinds"**: Led team across mechanical architecture, CNC/3D fabrication, and autonomous control. Built autonomous navigation using **Pedro Pathing with Bézier Curves & de Casteljau splines**, Limelight 3A vision tracking, and closed-loop PID velocity control. Won **1st Place at NJ State Championship (5-0)**, won **NJ University Cup**, and competed at the **FIRST World Championship in Houston** (finishing 39th in the Ross Division).
+- 🤝 **Community & Mentorship**: Dedicated **500+ mentoring hours** across 4 FLL teams and founded FTC Team PulseDrive. Hosted 15 STEM outreach events reaching **2,700+ students**, raised **$9,600+** in corporate sponsorships, and represented New Jersey at the US Governor's Cup.
+- 🦅 **Director of External Relations, FIRST Robotics Competition Team 2554 "Warhawks"**: Lead corporate sponsorships, engineering partnerships, and team brand strategy.
+- 🛠️ **Full-Stack Physical Engineering**: From scratch-built Cartesian 3D printers and multi-tool toolchangers to custom 4-legged quadruped robots, 6-axis arm carrier PCBs, and autonomous quadcopter flight controllers.
 
 ---
 
@@ -48,13 +49,15 @@ graph LR
 
 | Project | Focus | Description | Stack |
 | :--- | :--- | :--- | :--- |
+| [**roboPet**](https://github.com/AryaVora621/roboPet) | Robotics & AI | Autonomous 4-legged quadruped robot dog. Dual-processor architecture: Raspberry Pi Pico (real-time inverse kinematics & gait) + Raspberry Pi Zero 2W (local vision & speech pipeline), dual XL4016 buck regulation, OnShape CAD, printed on Bambu Lab A1 Mini. | ![KiCad](https://img.shields.io/badge/KiCad_8-314CB6?style=flat-square&logo=kicad&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | [**Gerald Rev 2**](https://github.com/AryaVora621/gerald) | Robotics & PCB | Custom ESP32-S3 carrier board for a 6-axis robotic arm with 6x STS3215 serial bus servos. 79 components, 12V 10A servo bus, synchronous buck converter, DRC-clean layout. | ![KiCad](https://img.shields.io/badge/KiCad_8-314CB6?style=flat-square&logo=kicad&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **From-Scratch 3D Printer** | Mechatronics | Custom Cartesian FDM 3D printer engineered from scratch: motion system, frame, wiring harness, and firmware. 250×250×300 mm build volume, 12 mechanical revisions. | ![Klipper](https://img.shields.io/badge/Klipper-D4380D?style=flat-square) ![Onshape](https://img.shields.io/badge/Onshape-1B5E20?style=flat-square&logo=onshape&logoColor=white) |
 | [**ESP32 QuadX Drone**](https://github.com/AryaVora621/drone) | Aerospace | Custom quadcopter flight controller and handheld 2.4GHz joystick transmitter with low-latency telemetry and clamped throttle mapping. | ![ESP-NOW](https://img.shields.io/badge/ESP--NOW-24292E?style=flat-square) ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00A86B?style=flat-square) |
+| [**Orochi Toolchanger**](https://github.com/AryaVora621/orochi) | Mechatronics | Multi-tool CoreXY 3D printer evolution built on Ender 5 Pro with Klipper, StealthChanger toolchanger, and custom kinematic toolheads. | ![Klipper](https://img.shields.io/badge/Klipper-D4380D?style=flat-square) ![Onshape](https://img.shields.io/badge/Onshape-1B5E20?style=flat-square&logo=onshape&logoColor=white) |
 | [**M.I.R.A.**](https://github.com/AryaVora621/m.i.r.a) | Room AI & Vision | Interactive room assistant with sub-pixel ArUco projector auto-homography calibration (0.0px error), Rust daemon, and local voice loop. | ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
-| [**Fusion360 MCP**](https://github.com/AryaVora621/fusion360-mcp-server) | CAD Automation | Published PyPI package connecting AI coding agents directly to Autodesk Fusion 360 over TCP for automated parametric CAD generation. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyPI](https://img.shields.io/badge/PyPI-0073B7?style=flat-square&logo=pypi&logoColor=white) |
+| [**Nana E-Book Reader**](https://github.com/AryaVora621/nana-ebook-reader) | Accessibility & Embedded | Offline accessibility reading device on Raspberry Pi Zero 2W featuring camera text capture, OpenCV preprocessing, Tesseract OCR, and Piper Neural TTS audio playback. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
+| [**notchTerm**](https://github.com/AryaVora621/notchTerm) | Systems & macOS | MacBook notch-overlay companion visualizer providing glanceable terminal monitoring, process statuses, and system HUD. | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white) |
+| [**SmartInvest**](https://github.com/AryaVora621/SmartInvest) | Fintech & AI | Full-stack equity intelligence dashboard with streaming AI market analysis, emerging markets stock screening, and guest-first architecture. | ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | [**aryavora.com**](https://github.com/AryaVora621/aryavora.com) | Web & Graphics | Personal portfolio and engineering lab showcase with 3D interactions, smooth physics, and Playwright verification. | ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) |
-| [**TeamStat-Insights**](https://github.com/AryaVora621/TeamStat-Insights) | Analytics | FTC match-scouting and predictive team analytics platform built for Team 23786 during competition. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 
 ---
 
@@ -78,7 +81,7 @@ graph LR
 <div align="center">
 
 <a href="https://github.com/AryaVora621">
-  <img src="https://streak-stats.demolab.com/?user=AryaVora621&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=AryaVora621&theme=tokyonight&ring=A855F7&fire=C084FC&currStreakLabel=A855F7&hide_border=true&border_radius=8" alt="GitHub Streak" />
 </a>
 
 </div>

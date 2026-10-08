@@ -1,113 +1,63 @@
-<div align="center">
+# Arya Vora
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:7e22ce,100:a855f7&height=195&section=header&text=Arya%20Vora&fontSize=44&fontAlignY=36&desc=Robotics%20%7C%20Embedded%20%7C%20CAD%20%7C%20Things%20That%20Move&descAlignY=60&descAlign=50&fontColor=ffffff" width="100%" />
+Robotics, CAD and embedded systems. I'm a junior (class of 2028) at John P. Stevens High School in Edison, NJ.
 
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=C084FC&center=true&vCenter=true&width=650&lines=Captain+%40+FTC+Team+23786+MakEMinds;Board+Member+%40+FRC+Team+2554+Warhawks;Custom+PCBs+in+KiCad%2C+firmware+in+C%2B%2B+and+Rust;Quadrupeds%2C+robot+arms%2C+and+ESP32+drones;500%2B+mentoring+hours%2C+2700%2B+students+reached" alt="Typing SVG" />
-</a>
+- Website: [www.arya-vora.org](https://www.arya-vora.org)
+- LinkedIn: [linkedin.com/in/aryavora](https://linkedin.com/in/aryavora)
+- Email: [aryavora621@gmail.com](mailto:aryavora621@gmail.com)
 
-<br/>
+## About
 
-[![Website](https://img.shields.io/badge/Website-arya--vora.org-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://arya-vora.org)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arya_Vora-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aryavora)
-[![Email](https://img.shields.io/badge/Email-aryavora621%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryavora621@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Edison%2C%20NJ-0A66C2?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Edison,NJ)
-[![Views](https://komarev.com/ghpvc/?username=AryaVora621&style=for-the-badge&color=A855F7&label=VIEWS)](https://github.com/AryaVora621)
+I build robots: the mechanical design in Onshape, the circuit boards in KiCad, the firmware, and the code around them. Mechanical design is the part I'm strongest at. Electronics and control software are what I'm learning, so several projects below are still in progress, and each one says how far it got.
 
-<br/>
+## FTC Team 23786 MakEMinds
 
-| 🏆 Worlds | 🥇 NJ State | 🤝 Mentoring | ⚡ PCB | 🖨️ CAD |
-| :---: | :---: | :---: | :---: | :---: |
-| **Houston, 39th in division** | **Won it as captain, 5-0** | **500+ hrs, 2,700+ students** | **79-part arm controller** | **12 revisions on one build** |
+I co-founded MakEMinds in 2023 and I'm the team captain for the 2026-27 season. Before MakEMinds, the team had an FLL team, 45814. In 2025-26 I was Mechanical Lead ("Built the robot and made design changes", per the team portfolio), and in 2024-25 I was Design Lead. My part is the CAD and the build. The robot code is written by our programming team.
 
----
-</div>
+Results, as recorded on [FTCScout](https://ftcscout.org/teams/23786):
 
-### About me
+2025-26 (DECODE)
 
-I'm a junior (class of 2028) at John P. Stevens High School in Edison, NJ. I like building robots and doing every part of it myself: the CAD, the circuit boards, the firmware, and the code that ties it together.
+- New Jersey Championship, 2026-03-15: Parkway Division Winning Alliance, Captain, and Finalist Alliance, Captain. We went 5-0 in qualification in the Parkway Division, ranked 1st of 24.
+- Inspire Award, 2nd place, Upper Central League Tournament, 2026-02-14.
+- FIRST Championship, Ross Division, Houston: 5-5.
+- US Governors Cup, Washington DC (FTCScout lists it as a scrimmage): 4-1 in qualification, ranked 5th of 51.
 
-- **FTC Team 23786 "MakEMinds":** I started the team and captain it. We won the NJ State Championship, won the NJ University Cup, and went to the FIRST World Championship in Houston. I mostly work on autonomous (Pedro Pathing, Limelight vision, PID on the flywheels).
-- **FRC Team 2554 "The Warhawks":** board member. I handle sponsorships, strategy and scouting for a team of 50+.
-- **Mentoring:** 500+ hours across four FLL teams, 15 outreach events, $15,000+ raised in sponsorships, and a second FTC team (PulseDrive) that I got off the ground.
+2024-25 (INTO THE DEEP)
 
----
+- Control Award, 1st place, New Jersey Championship, 2025-03-16, and Turnpike Division Finalist Alliance, Captain.
+- Think Award, 1st place, and Inspire Award, 3rd place, Upper Central League Tournament, 2025-02-15.
 
-### How I build things
+### Reaper, the 2025-26 robot
 
-```mermaid
-graph LR
-    CAD["📐 CAD<br/><i>Onshape, Fusion 360</i>"] --> PCB["⚡ PCB<br/><i>KiCad 8</i>"]
-    PCB --> EMB["🔌 Firmware<br/><i>C++, Rust, FreeRTOS</i>"]
-    EMB --> AUT["🎯 Vision and control<br/><i>Limelight, OpenCV</i>"]
-    AUT --> SYS["🧠 Software<br/><i>Python, Next.js, Swift</i>"]
-```
+From the team's engineering portfolio (numbers are the team's own):
 
----
+- A full-width intake that lifts to conform to the game pieces, with mecanum wheels that push them in from the side, and a gecko-wheel transfer.
+- A flywheel shooter with a servo-angled hood. A Limelight 3A on the shooter reads AprilTags to set the angle and RPM automatically. The portfolio reports all three stored pieces shot within a second.
+- Pedro Pathing for autonomous paths, with goBILDA Pinpoint localization. The portfolio reports autonomous success rising from 52% to 92% over the season.
+- Five robot iterations, ending in the smallest and lightest chassis.
 
-### Projects
+## FRC Team 2554 The Warhawks
 
-| Project | What it is | Stack |
-| :--- | :--- | :--- |
-| [**roboPet**](https://github.com/AryaVora621/roboPet) | A four-legged robot dog. A Pi Pico handles gait and inverse kinematics, a Pi Zero 2W handles vision and speech. Printed on a Bambu A1 Mini. | ![KiCad](https://img.shields.io/badge/KiCad_8-314CB6?style=flat-square&logo=kicad&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [**Gerald Rev 2**](https://github.com/AryaVora621/gerald) | Custom ESP32-S3 carrier board for a 6-axis arm with six STS3215 servos. 79 parts, 12V 10A servo bus, DRC-clean. | ![KiCad](https://img.shields.io/badge/KiCad_8-314CB6?style=flat-square&logo=kicad&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| [**ESP32 QuadX Drone**](https://github.com/AryaVora621/drone) | A quadcopter flight controller plus a handheld 2.4GHz joystick transmitter, talking over ESP-NOW. | ![ESP-NOW](https://img.shields.io/badge/ESP--NOW-24292E?style=flat-square) ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00A86B?style=flat-square) |
-| [**Orochi Toolchanger**](https://github.com/AryaVora621/orochi) | An Ender 5 Pro rebuilt as a CoreXY toolchanger with Klipper and StealthChanger docks. | ![Klipper](https://img.shields.io/badge/Klipper-D4380D?style=flat-square) ![Onshape](https://img.shields.io/badge/Onshape-1B5E20?style=flat-square&logo=onshape&logoColor=white) |
-| [**M.I.R.A.**](https://github.com/AryaVora621/m.i.r.a) | A room assistant that lines up a projector and camera using ArUco markers. Rust daemon, local voice. | ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
-| [**Nana E-Book Reader**](https://github.com/AryaVora621/nana-ebook-reader) | An offline reading device for accessibility. Camera, OCR and text-to-speech on a Pi Zero 2W. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
-| [**notchTerm**](https://github.com/AryaVora621/notchTerm) | A macOS notch overlay that shows terminal and process status at a glance. | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white) |
-| [**SmartInvest**](https://github.com/AryaVora621/SmartInvest) | A stock research dashboard with streaming AI analysis and a screener for emerging markets. | ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [**arya-vora.org**](https://github.com/AryaVora621/aryavora.com) | My portfolio site, with 3D interactions built in Three.js. | ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) |
+Board member of FRC Team 2554, The Warhawks, in Edison, NJ ([The Blue Alliance](https://www.thebluealliance.com/team/2554)).
 
-<details>
-<summary><b>FTC robot: how the autonomous works</b></summary>
-<br/>
+## Projects
 
-- **Pathing:** Pedro Pathing, which follows Bézier curves so the robot moves smoothly instead of stopping at every waypoint.
-- **Vision:** a Limelight 3A reads AprilTags and corrects odometry drift during a match.
-- **Flywheels:** a PID loop adjusts RPM for battery sag and distance to the goal.
-- **Mechanisms:** a Mecanum intake, a motorized indexer, and an adjustable-angle hood over two weighted flywheels.
+Status is as of October 2026.
 
-</details>
+- **[roboPet](https://github.com/AryaVora621/roboPet)**: a four-legged robot based on the open-source Sesame design. A Raspberry Pi Pico running MicroPython drives the servos and reads an MPU6050 IMU. A Pi Zero 2W is planned for the camera and audio. The 8-servo MVP chassis was designed in Onshape and printed on a Bambu Lab A1 Mini. Status: partly assembled. The gait and inverse kinematics are not written yet, so it does not walk.
+- **Gerald Rev 2** (private repo): a carrier board for a 6-axis desk arm, with an ESP32-S3 and six Feetech STS3215 servos, designed around a 12 V, 10 A servo bus. Status: the schematic is complete and 79 parts are placed on a 100 by 105 mm board. The board is not routed yet, and the arm is not built.
+- **[ESP32 QuadX Drone](https://github.com/AryaVora621/drone)**: a quadcopter built on the open-source esp-fc flight firmware, with a handheld ESP-NOW joystick transmitter. Status: it flew once, on 2026-07-18, and crashed, breaking two propellers. I'm rebuilding it and retesting the radio link.
+- **[Orochi Toolchanger](https://github.com/AryaVora621/orochi)**: a plan to rebuild an Ender 5 Pro as a CoreXY toolchanger running Klipper, with StealthChanger docks. It builds on ZeroG Mercury One.1 and StealthChanger. Status: in planning. There are design docs and a parts list, and nothing is built yet.
+- **[M.I.R.A.](https://github.com/AryaVora621/m.i.r.a)**: a design for a room assistant with gesture and voice control, a core daemon planned in Rust, and projector calibration using ArUco markers. Status: design only. The repo holds architecture specs and no code yet.
+- **[Nana E-Book Reader](https://github.com/AryaVora621/nana-ebook-reader)**: an offline reading aid for a family member with dyslexia. A camera photographs a book page, OpenCV and Tesseract read it, and Piper reads it aloud, all on a Pi Zero 2W. Status: built and running.
+- **[notchTerm](https://github.com/AryaVora621/notchTerm)**: a macOS menu-bar app that puts an overlay at the MacBook notch for Claude CLI and Codex CLI sessions in Terminal.app. It reads each session's output over AppleScript and sends what I type to the matching tab. Status: working, built from source with `swift build`.
+- **[SmartInvest](https://github.com/AryaVora621/SmartInvest)**: a stock research dashboard. Its Research tab streams a cited, web-searched report, and it has a screener for emerging markets. Status: working, last updated September 2026.
+- **[arya-vora.org](https://github.com/AryaVora621/arya-vora.org)**: my portfolio site, built with Next.js, Three.js and GSAP.
 
-<details>
-<summary><b>Gerald Rev 2: the board</b></summary>
-<br/>
+## Tools
 
-- ESP32-S3 with dedicated UART buses for the serial servos.
-- 12V 10A bus with an onboard synchronous buck converter.
-- Star grounding to keep logic and power separate, TVS diode for reverse-voltage protection, LC filtering for ripple.
-- Routed entirely in KiCad 8 with zero DRC errors.
-
-</details>
-
----
-
-### Tools
-
-<div align="center">
-
-| | |
-| :--- | :--- |
-| **CAD and fab** | ![Onshape](https://img.shields.io/badge/Onshape-1B5E20?style=flat-square&logo=onshape&logoColor=white) ![Autodesk Fusion](https://img.shields.io/badge/Fusion_360-FF6600?style=flat-square&logo=autodesk&logoColor=white) ![FreeCAD](https://img.shields.io/badge/FreeCAD-CB171E?style=flat-square&logo=freecad&logoColor=white) ![Klipper](https://img.shields.io/badge/Klipper-D4380D?style=flat-square) |
-| **Electronics** | ![KiCad](https://img.shields.io/badge/KiCad_8-314CB6?style=flat-square&logo=kicad&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) |
-| **Firmware** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black) ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00A86B?style=flat-square) |
-| **Software** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![Java](https://img.shields.io/badge/Java_(FTC)-007396?style=flat-square&logo=openjdk&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
-
-</div>
-
----
-
-<div align="center">
-
-<a href="https://github.com/AryaVora621">
-  <img src="https://streak-stats.demolab.com/?user=AryaVora621&theme=tokyonight&ring=A855F7&fire=C084FC&currStreakLabel=A855F7&hide_border=true&border_radius=8" alt="GitHub Streak" />
-</a>
-
-<br/><br/>
-
-[![Website](https://img.shields.io/badge/Website-arya--vora.org-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://arya-vora.org)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arya_Vora-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aryavora)
-[![Email](https://img.shields.io/badge/Email-aryavora621%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryavora621@gmail.com)
-
-</div>
+- CAD: Onshape, Fusion 360
+- Electronics: KiCad 8, ESP32, Raspberry Pi Pico and Zero 2W
+- Fabrication: Bambu Lab A1 Mini, Klipper
+- Code: C++, MicroPython, Python, TypeScript, Next.js, Swift
